@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:text="Challenges"
+        android:id="@+id/button_challenges"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="180sp" />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:text="Rewards"
+        android:id="@+id/button_rewards"
+        android:layout_gravity="left|center_vertical" />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:text="Practice"
+        android:id="@+id/button_practice"
+        android:layout_gravity="right|center_vertical" />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:text="About"
+        android:id="@+id/button_about"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="180sp" />
+</FrameLayout>

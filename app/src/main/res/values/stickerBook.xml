@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <resources name="stickerBook">
+
+        <string name="stars">33</string>
+        <string name="stickers">3</string>
+        <string name="answerStreak">0</string>
+
+    </resources>

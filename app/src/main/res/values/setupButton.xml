@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu1">
+        <item name="addition">Addition</item>
+        <item name="subtraction">Subtraction</item>
+        <item name="multiplication">Multiplication</item>
+        <item name="division">Division</item>
+    </string-array>
+
+</resources>

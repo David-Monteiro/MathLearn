@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/numberView0"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="25sp" />
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/operatorView0"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.16"
+        android:layout_marginTop="100sp" />
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/numberView1"
+        android:layout_gravity="right"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="25sp" />
+
+    <EditText
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/answerPanel"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text="OK"
+        android:id="@+id/button_Ans"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100sp" />
+
+    <ImageButton
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:id="@+id/gameReturn"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:cropToPadding="false"
+        android:src="@drawable/back_icon0" />
+
+    <ImageButton
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:id="@+id/gameSkip"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="5sp"
+        android:src="@drawable/forward_icon0" />
+
+</FrameLayout>
